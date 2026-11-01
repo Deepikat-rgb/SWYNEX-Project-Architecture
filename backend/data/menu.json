@@ -1,0 +1,10 @@
+[
+  {"id":1,"name":"Masala Dosa","price":50,"category":"Breakfast","available":true},
+  {"id":2,"name":"Idli Vada","price":40,"category":"Breakfast","available":true},
+  {"id":3,"name":"Veg Thali","price":90,"category":"Lunch","available":true},
+  {"id":4,"name":"Chicken Biryani","price":120,"category":"Lunch","available":true},
+  {"id":5,"name":"Samosa","price":15,"category":"Snacks","available":true},
+  {"id":6,"name":"Veg Sandwich","price":35,"category":"Snacks","available":true},
+  {"id":7,"name":"Masala Chai","price":12,"category":"Beverages","available":true},
+  {"id":8,"name":"Cold Coffee","price":45,"category":"Beverages","available":true}
+]

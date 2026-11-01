@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Queueless Canteen – Staff Dashboard</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><h1>Queue<span>less</span> Staff</h1><a href="index.html">← Ordering Page</a></header>
+<main>
+  <section class="wide">
+    <h2 style="margin-bottom:1rem">Live Orders</h2>
+    <table><thead><tr><th>Token</th><th>Name</th><th>Items</th><th>Total</th><th>Status</th></tr></thead>
+    <tbody id="orders"></tbody></table>
+  </section>
+  <section class="wide">
+    <h2 style="margin:1rem 0">Menu Management</h2>
+    <div class="card" style="display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem">
+      <input id="iname" placeholder="Item name" style="flex:2">
+      <input id="iprice" type="number" placeholder="Price" style="flex:1">
+      <input id="icat" placeholder="Category" style="flex:1">
+      <button class="btn primary" onclick="addItem()">Add Item</button>
+    </div>
+    <table><thead><tr><th>Item</th><th>Category</th><th>Price</th><th>Available</th><th></th></tr></thead>
+    <tbody id="menuTable"></tbody></table>
+  </section>
+</main>
+<script src="admin.js"></script></body></html>
